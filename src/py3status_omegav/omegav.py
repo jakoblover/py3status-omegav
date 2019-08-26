@@ -74,7 +74,7 @@ class Py3status:
         
         return resp
 
-    def omegav_status(self):
+    def omegav(self):
         if not self.thread_started:
             self._start_handler_thread()
         
